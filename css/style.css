@@ -1,0 +1,151 @@
+
+/* General Style*/
+body{
+  margin: 0;
+  line-height: 1.5;
+}
+*{
+  box-sizing:
+}
+.main-content{
+  background-color: hsla(0, 100%, 90%, 0.3);
+  min-height: 100vh;
+  display: block;
+  padding-left: 430px;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+  color: hsla(0, 100%, 50%, 0.3);
+}
+
+/* Aside */
+.aside {
+  width: 430px;
+  background-color: hsla(0, 100%, 50%, 0.3);
+  position: fixed;
+  height: 100%;
+
+}
+
+/* logo */
+ h1{ 
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 80px;
+  padding-left: 70px;
+  color: hsl(0, 100%, 90%);
+ }
+/* line */
+.line{
+  list-style: none;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 40px;
+  line-height: 70px;
+}
+a:link{
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: #f0f0f0
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+a.home{
+  padding-left: 250px;
+}
+a.work{
+  padding-left: 250px;
+}
+a.about{
+  padding-left: 225px;
+}
+a.contact{
+  padding-left: 180px;
+}
+
+
+/* Contact Section*/
+.contacter{
+  text-align: center;
+  padding-left: 50px;
+}
+h4{
+  text-align: center;
+}
+h5{
+  text-align: center;
+}
+
+
+/* About Section */
+.resume{
+  padding-top: 40px; 
+  text-align: center;
+}
+.line2{
+  list-style: none;
+}
+.portrait{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+}
+h2{
+  font-size: 40px;
+
+}
+h3{
+  text-align: center;
+
+}
+
+/*Work Section*/
+.gallery {
+  margin: 5px;
+  float: left;
+
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding-left: 80px;
+
+}
+.painting{
+   margin: 5px;
+  float: left;
+}
+.painting img{
+  width: 100%;
+  height: auto;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding-left: 80px;
+
+}
+.videos{
+  width: 100%;
+  height:auto;
+  padding-left: 100px;
+  
+}
+h5{
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
